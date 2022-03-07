@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a mobile-first designed and responsive personal portfolio web page.
+This is a mobile-first designed and responsive personal car rental web page.
 
 ### Concepts
 
