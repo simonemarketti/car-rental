@@ -258,9 +258,9 @@ button:not(:disabled),
   }
 }
 
-.col-6 {
+.col-7 {
   flex: 0 0 auto;
-  width: 50%;
+  width: 58.33333333%;
 }
 @media (min-width: 992px) {
 
@@ -373,8 +373,8 @@ button:not(:disabled),
   padding-bottom: 1rem !important;
 }
 
-.pb-4 {
-  padding-bottom: 1.5rem !important;
+.pb-5 {
+  padding-bottom: 3rem !important;
 }
 
 .fs-6 {
@@ -403,11 +403,15 @@ button:not(:disabled),
     display: flex !important;
   }
 
-  .d-lg-inline-flex {
-    display: inline-flex !important;
-  }
-
   .flex-lg-row {
     flex-direction: row !important;
+  }
+
+  .justify-content-lg-between {
+    justify-content: space-between !important;
+  }
+
+  .pb-lg-5 {
+    padding-bottom: 3rem !important;
   }
 }
