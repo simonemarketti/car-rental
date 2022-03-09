@@ -13,7 +13,7 @@ This is a mobile-first designed and responsive personal car rental web page.
 
 - HTML
 - CSS
-- BOOTSTRAP
+- BOOTSTRAP (customized with sass)
 - SASS
 - GULP (& PURGECSS)
 - GIT
