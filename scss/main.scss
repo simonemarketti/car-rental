@@ -43,3 +43,26 @@ $custom-colors: (
 }
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+.button-learn {
+  text-decoration: none;
+  text-align: center;
+}
+
+@keyframes slide {
+  from {
+    margin-left: 0px;
+  }
+
+  to {
+    margin-left: 100px;
+  }
+}
+
+.img-car {
+  margin-left: 0px;
+  &.animated-car {
+    animation-name: slide;
+    animation-duration: 2s;
+  }
+}
