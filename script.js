@@ -1,20 +1,19 @@
-const button = document.querySelectorAll(".button-learn");
-const images = document.querySelectorAll(".img-car");
-
-button.forEach((butt) => {
-  butt.addEventListener("click", (e) => {
-    images.forEach((img) => {
-      img.classList.remove("animated-car");
-    });
-    if (e.target.classList.contains("sedan")) {
-      let car = document.querySelector(".img-car.sedan");
-      car.classList.add("animated-car");
-    } else if (e.target.classList.contains("suv")) {
-      let car = document.querySelector(".img-car.suv");
-      car.classList.add("animated-car");
-    } else if (e.target.classList.contains("luxury")) {
-      let car = document.querySelector(".img-car.luxury");
-      car.classList.add("animated-car");
-    }
-  });
+$(document).ready(function() {
+    $(".button-learn").each(function() {
+        // add event listener to each button
+        $(this).click(function () {
+            if ($(this).hasClass("sedan")) {
+                $(".img-car.sedan").addClass("animated-car")
+            } else if ($(this).hasClass("suv")) {
+                $(".img-car.suv").addClass("animated-car")
+            } else if ($(this).hasClass("luxury")) {
+                $(".img-car.luxury").addClass("animated-car")
+            }
+            setTimeout(function () {
+                // remove previous class
+                $(".img-car").removeClass("animated-car")
+            }, 2000)
+        })
+    })
 });
+
