@@ -7,17 +7,17 @@ This is a mobile-first designed and responsive personal car rental web page.
 ### Concepts
 
 - Mobile first design
-- Full responsive webpage at different breakpoints with bootstrap (mobile: 327x1326, desktop: 1440x800)
+- Responsive webpage at different breakpoints with bootstrap
 
 ### Languages and tools
 
 - HTML
 - CSS
-- ANIMATIONS (KEYFRAME)
+- ANIMATIONS 
 - BOOTSTRAP (customized with sass)
 - SASS
 - JQUERY
-- GULP (& PURGECSS)
+- GULP 
 - GIT
 - NPM
 
